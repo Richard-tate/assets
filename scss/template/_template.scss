@@ -1,0 +1,225 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #8a8a8a;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+
+table.button.cta table td {
+  background: #303030 !important;
+}
+
+
+.card_available{
+  background-color: #ffffff !important;
+  max-width: 90% !important;
+  margin: 0 auto;
+  width:540px;
+
+  .hr_border{
+    margin: 0 3.5%;
+  }
+  .hide_above{
+    opacity: 0;
+  }
+
+  .price, .available{
+    padding: 10px 0;
+  }
+  .available{
+    margin-left: 15px;
+    position: relative;
+  }
+  .price{
+    padding-left: 10px;
+  }
+  .available .before{
+    position: absolute;
+    background-color: #303030;
+    width: 2px;
+    height: 65%;
+    top: 15%;
+    right: 5px;
+  }
+
+  h5{
+    margin-left: 5px;
+  }
+  .row.brand_flex{
+    margin: 0 10px;
+  }
+  .cta-btn{
+    padding-top: 16px;
+    padding-bottom: 10px !important;
+  }
+  
+  @media only screen and (max-width: 596px) {
+  
+
+   td table.row:nth-child(1) tr th:nth-child(2), td table.row:nth-child(1) tr th:nth-child(3){
+      display: inline-block !important;
+   }
+   .row.brand_flex{
+      margin: 0 5px;
+   }
+   .row.brand_flex tr{
+     width: 100%;
+   }
+   
+  }
+}
+
+table.body .columns.available, table.body .column {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+}
+
+.card_available td table.row:nth-child(1) tr th:nth-child(1){
+  padding-bottom: 0 !important;
+
+}
+
+// below screen size 596px
+@media only screen and (max-width:596px) {
+
+  .hide_above{
+    opacity: 1 !important;
+  }
+  .card_available .cta-btn{
+    padding-top: 20px !important;
+  }
+  
+}
+
+@media(perfers-color-scheme: dark) {
+  .card_available{
+    background-color: #303030 !important;
+    color: #ffffff !important;
+  }
+  .card_available .cta-btn{
+    background-color: #ffffff !important;
+    color: #303030 !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container {width: 100% !important;}
+  .footer { width:auto !important; margin-left:0; }
+  .mobile-hidden { display:none !important; }
+  .logo { display:block !important; padding:0 !important; }
+  img { max-width:100% !important; height:auto !important; max-height:auto !important;}
+  .header img{max-width:100% !important;height:auto !important; max-height:auto !important;}
+  .photo img { width:100% !important; max-width:100% !important; height:auto !important;}
+  .drop { display:block !important; width: 100% !important; float:left; clear:both;}
+  .footerlogo { display:block !important; width: 100% !important; padding-top:15px; float:left; clear:both;}
+  .nav4, .nav5, .nav6 { display: none !important; }
+  .tableBlock {width:100% !important;}
+  .responsive-td {width:100% !important; display:block !important; padding:0 !important; }
+  .fluid, .fluid-centered {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .fluid-centered {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+  body { padding: 0px !important; font-size: 16px !important; line-height: 150% !important;}
+  h1 { font-size: 22px !important; line-height: normal !important;}
+  h2 { font-size: 20px !important; line-height: normal !important;}
+  h3 { font-size: 18px !important; line-height: normal !important;}
+  .buttonstyles {
+    font-family:arial,helvetica,sans-serif !important;
+    font-size: 16px !important;
+    color: #FFFFFF !important;
+    padding: 10px !important;
+  }
+  /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+}
+@media only screen and (max-width: 640px) {
+  .container { width:100% !important; }
+  .mobile-hidden { display:none !important; }
+  .logo { display:block !important; padding:0 !important; }
+  .photo img { width:100% !important; height:auto !important;}
+  .nav5, .nav6 { display: none !important;}
+  .fluid, .fluid-centered {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .fluid-centered {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+ReadMsgBody{ width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;margin:0 !important;}
+p { margin: 1em 0;}
+table td { border-collapse: collapse;}
+img {outline:0;}
+a img {border:none;}
+@-ms-viewport{ width: device-width;}
